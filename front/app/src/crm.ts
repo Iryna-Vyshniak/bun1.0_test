@@ -5,16 +5,23 @@ const state = {
         'New Candidates',
         'Waiting for Reply',
         'Screening (recruiter)',
+        'Test Task',
+        'Interview (manager)',
+        'Offer presentation',
+        'Offer accepted',
+        'Offer declined',
+        'Candidate failed',
     ]
 }
 
 const root = document.getElementById('crm') as HTMLElement | undefined;
 assertDefined(root, 'Root must be defined')
-root.className = 'flex bg-slate-200'
+// use w-fit + whitespace-nowrap + overflow-x-scroll to make the div scrollable horizontally
+root.className = 'flex w-fit whitespace-nowrap bg-slate-200 overflow-x-scroll'
 
 for (const stage of state.stages) {
-    const _div = document.createElement('div');
-    _div.className = 'h-screen  mr-2'
+    const _divStage = document.createElement('div');
+    _divStage.className = 'mr-3 h-screen w-48'
     // nested elements
     {
         const __divTitle = document.createElement('div');
@@ -24,8 +31,8 @@ for (const stage of state.stages) {
         const __divBody = document.createElement('div');
         __divBody.className = 'h-full bg-slate-50'
 
-        _div.appendChild(__divTitle);
-        _div.appendChild(__divBody);
+        _divStage.appendChild(__divTitle);
+        _divStage.appendChild(__divBody);
     }
-    root.appendChild(_div);
+    root.appendChild(_divStage);
 }

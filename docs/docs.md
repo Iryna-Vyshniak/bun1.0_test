@@ -13,3 +13,9 @@ bun --hot run src/server.ts
 bun build ./crm.ts --outdir ../../public
 bun --watch build ./crm.ts --outdir ../../public
 ```
+
+## Tailwindcss
+
+```
+bunx tailwindcss -c ./front/tailwind.config.cjs -i front/styles.css -o public/output.css --watch
+```

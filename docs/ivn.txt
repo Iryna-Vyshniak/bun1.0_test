@@ -3,4 +3,6 @@
 -- TO-DO: 16.09 [server] serve static assets from http server ✅
 -- TO-DO: 16.09 [server] change the config, so bun bundler puts a crm.js file into the right folder ✅
 -- TO-DO: 16.09 [server] run a bundler to watch for changes in a file and rebundle ✅
+-- TO-DO: 16.09 [server] integrate Tailwind.css ✅
+-- TO-DO: 16.09 [server] save html code into the file ✅
 

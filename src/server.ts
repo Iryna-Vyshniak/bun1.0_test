@@ -4,16 +4,7 @@ const server = Bun.serve({
     const url = new URL(req.url);
 
     if (url.pathname === "/") {
-      return new Response(`
-          <html>
-            <head>
-              <script defer src="/assets/crm.js"></script>
-            </head>
-            <body>
-              <h1>Hello via Bun!</h1>
-            </body>
-          </html>
-        `, {
+      return new Response(Bun.file("./front/views/index.html"), {
         headers: {
           "Content-Type": "text/html",
         },

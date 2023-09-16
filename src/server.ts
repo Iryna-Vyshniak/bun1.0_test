@@ -11,6 +11,7 @@ const server = Bun.serve({
       })
     }
     if (url.pathname === "/assets/crm.js") { return new Response(Bun.file('./public/crm.js')); }
+    if (url.pathname === "/assets/output.css") { return new Response(Bun.file('./public/output.css')); }
     return new Response("Page not found", { status: 404 })
   },
 });

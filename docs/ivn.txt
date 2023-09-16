@@ -5,4 +5,6 @@
 -- TO-DO: 16.09 [server] run a bundler to watch for changes in a file and rebundle ✅
 -- TO-DO: 16.09 [server] integrate Tailwind.css ✅
 -- TO-DO: 16.09 [server] save html code into the file ✅
+-- TO-DO: 16.09 [server] include css reference in html file ✅
+-- TO-DO: 16.09 [server] serve css file from the server✅
 

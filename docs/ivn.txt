@@ -7,4 +7,6 @@
 -- TO-DO: 16.09 [server] save html code into the file ✅
 -- TO-DO: 16.09 [server] include css reference in html file ✅
 -- TO-DO: 16.09 [server] serve css file from the server✅
+-- TO-DO: 16.09 [server] include DOM apis in a bundler, so it understand basic DOM values and types✅
+
 

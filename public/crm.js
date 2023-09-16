@@ -1,2 +1,3 @@
 // crm.ts
-console.log("Hello from crm.ts");
+var root = document.getElementById("crm");
+console.log("root: ", root);

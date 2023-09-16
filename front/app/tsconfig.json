@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext",
+    ],
+  },
+  "include": [
+    "src"
+  ]
+}

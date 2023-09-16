@@ -10,8 +10,8 @@ bun --hot run src/server.ts
 ## Bundle crm
 
 ```
-bun build ./crm.ts --outdir ../../public
-bun --watch build ./crm.ts --outdir ../../public
+bun build ./src/crm.ts --outdir ../../public
+bun --watch build ./src/crm.ts --outdir ../../public
 ```
 
 ## Tailwindcss

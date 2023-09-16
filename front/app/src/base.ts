@@ -1,3 +1,3 @@
 export function assertDefined(value: any, message: string) {
-    if (value === undefined) throw new Error(message);
+    if (value === null) throw new Error(message);
 }

@@ -8,5 +8,6 @@
 -- TO-DO: 16.09 [server] include css reference in html file ✅
 -- TO-DO: 16.09 [server] serve css file from the server✅
 -- TO-DO: 16.09 [server] include DOM apis in a bundler, so it understand basic DOM values and types✅
-
+-- TO-DO: 16.09 [server] render columns on the page✅
+-- TO-DO: 16.09 [server] config tailwind to see the classes that are defined in the .ts files on the frontend ✅
 

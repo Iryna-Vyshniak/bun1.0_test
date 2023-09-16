@@ -1,0 +1,4 @@
+-- TO-DO: 16.09 [server] create a basic http server ✅
+-- TO-DO: 16.09 [server] return an empty html page ✅
+-- TO-DO: 16.09 [server] return an empty html page ✅
+
